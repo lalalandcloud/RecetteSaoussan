@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="./style.css">
+    <title>livre de recettes Saoussan</title>
+</head>
+<body class="fw-light">
+    <header class="d-flex bg-body-tertiary">
+        <img src="https://www.association-belgo-palestinienne.be/wp-content/uploads/2018/08/foodpalestineflag.jpg" alt="Drapeau palestinien en nourriture">
+        <h1 class="pt-3 ps-3 text-capitalize ">recettes du monde</h1>
+    </header>
+    <section>
+        <nav class="navbar navbar-expand-lg bg-body-tertiary  text-capitalize">
+            <div class="container-fluid">
+            <a class="navbar-brand ext-capitalize "  href="#">la gastronomie: l'art du bonheur</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="./main.html">retour à la cuisine</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="./main.html#platprinc">nos plats principaux</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="./main.html#salade">nos salades</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="./main.html#dessert">nos desserts</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="./recetteamani.html">Les recettes d'Amani</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    le meilleur de notre cuisine
+                    </a>
+                    <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">nos plats vegans</a></li>
+                    <li><a class="dropdown-item" href="#">nos plats sans gluten</a></li>
+                    <li><a class="dropdown-item" href="#">nos desserts sans sucre</a></li>
+                    </ul>
+                </li>
+                <!-- <li class="nav-item">
+                    <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+                </li> -->
+                </ul>
+                <!-- <form class="d-flex" role="search">
+                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success" type="submit">Search</button>
+                </form> -->
+            </div>
+            </div>
+        </nav>
+    </section>
+
+<!-- Debut du header -->
+
+    <section class="mb-5">
+        <div id="videocarouselExample" class="carousel slide carousel-fade" data-bs-ride="carousel">
+            <ol class="carousel-indicators" style="list-style-type: none;">
+                <li data-bs-target="#videocarouselExample" data-bs-slide-to="0" class="active"></li>
+                <li data-bs-target="#videocarouselExample" data-bs-slide-to="1"></li>
+                <li data-bs-target="#videocarouselExample" data-bs-slide-to="2"></li>
+            </ol>
+        
+            <div class="carousel-inner" role="listbox">
+              <div class="carousel-item active">
+                <video class="video-fluid" loop autoplay muted>
+                    <source src="./assets/videos/6037344_Chef_Meat_3840x2160.mp4"  type="video/mp4" alt="chef assaisone de la viande">
+                </video>
+                <div class="carousel-caption d-none d-md-block">
+                    <h4>Nos plats</h4>
+                    <p>Venez deguster les saveurs incroyables du chef</p>
+              </div>
+              </div>
+        
+              <div class="carousel-item">
+                <video class="video-fluid" loop autoplay muted>
+                    <source src="./assets/videos/mocktails.mp4" type="video/mp4" alt="mocktails succulent">
+                </video>
+                <div class="carousel-caption d-none d-md-block">
+                    <h4>Nos Mocktails</h4>
+                    <p>Testez nos delicieux Mocktails exotiques</p>
+              </div>
+              </div>
+        
+              <div class="carousel-item">
+                <video class="video-fluid" loop autoplay muted>
+                    <source src="./assets/videos/dessert.mp4" type="video/mp4" alt="coulis de chocolat versé sur des pancakes">
+                </video>
+                <div class="carousel-caption d-none d-md-block">
+                    <h4>Nos Desserts</h4>
+                    <p>Nos desserts sucrés vous feront fondre</p>
+              </div>
+              </div>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#videocarouselExample" data-bs-slide="prev" style="z-index: 1;">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#videocarouselExample" data-bs-slide="next" style="z-index: 1;">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+</section>
+
+
+<!-- Fin du header -->
+
+<!-- Debuts des sections -->
+
+<section class="d-flex justify-content-around m-5 text-justify text-center" style="margin: 30px;;">
+    <div class="card border border-success border-2 " id="platprinc" style="width: 18rem;">
+        <img src="https://assets.afcdn.com/recipe/20230104/139097_w1024h768c1cx1060cy707cxt0cyt0cxb2121cyb1414.jpg" class="card-img-top img-card" alt="...">
+        <div class="card-body">
+            <h5 class="card-title">Poulet General Tao</h5>
+            <p class="card-text">Légèrement acidulé et relevé avec une bonne touche de sucre !</p>
+        </div>
+    </div>
+    <div class="card border border-success border-2 " style="width: 18rem;">
+        <img src="https://www.cherryonmysundae.com/wp-content/uploads/2020/06/mexican-samosas24935-feature.jpg" class="card-img-top img-card" alt="...">
+        <div class="card-body">
+            <h5 class="card-title">Samosas</h5>
+            <p class="card-text">La meilleure invention des illuminatis</p>
+        </div>
+    </div>
+    <div class="card border border-success border-2 " style="width: 18rem;">
+        <img src="https://littlespicejar.com/wp-content/uploads/2022/04/My-Moms-Beef-Samosa-10-540x720.jpg" class="card-img-top img-card" alt="...">
+        <div class="card-body">
+            <h5 class="card-title">Samosas mexicain</h5>
+            <p class="card-text">La meilleure invention des illuminatis Mexicain</p>
+        </div>
+    </div>  
+</section>
+<section class="d-flex justify-content-around m-5 text-justify text-center ">
+    <div class="card border border-dark border-2 " id="salade" style="width: 18rem;">
+        <img src="https://images.squarespace-cdn.com/content/v1/5bcccf8b9b7d15579477a125/90b3a927-bad4-4c64-bd2f-2f62ea5424a2/Virgin+Mojito.jpg" class="card-img-top img-card" alt="...">
+        <div class="card-body">
+            <h5 class="card-title">Virgin Mojito</h5>
+            <p class="card-text">La star des Mocktails</p>
+        </div>
+    </div>
+    <div class="card border border-dark border-2 " style="width: 18rem;">
+        <img src="https://platedcravings.com/wp-content/uploads/2022/06/Virgin-Pina-Colada-Plated-Cravings-9.jpg" class="card-img-top img-card" alt="...">
+        <div class="card-body">
+            <h5 class="card-title">Pina Colada</h5>
+            <p class="card-text">Delicieux en été</p>
+        </div>
+    </div>
+    <div class="card border border-dark border-2 " style="width: 18rem;">
+        <img src="https://abeautifulmess.com/wp-content/uploads/2024/02/Fish-Bowl-Drink.jpg" class="card-img-top img-card" alt="...">
+        <div class="card-body">
+            <h5 class="card-title">Blue Lagoon</h5>
+            <p class="card-text">Aussi bon qu'il en a l'air</p>
+        </div>
+    </div>  
+</section>
+<section class="d-flex justify-content-around m-5 text-justify text-center ">
+    <div class="card border border-danger border-2" id="dessert" style="width: 18rem;">
+        <img src="https://thebluefufu.com/wp-content/uploads/2020/09/IMG_8646-scaled.jpg" class="card-img-top img-card" alt="...">
+        <div class="card-body">
+            <h5 class="card-title">Beignets Mikaté</h5>
+            <p class="card-text">On en raffole</p>
+        </div>
+    </div>
+    <div class="card border border-danger border-2 " style="width: 18rem;">
+        <img src="https://files.meilleurduchef.com/mdc/photo/recette/tiramisu-speculoos/tiramisu-speculoos-1200.jpg" class="card-img-top img-card" alt="...">
+        <div class="card-body">
+            <h5 class="card-title">Tiramisu</h5>
+            <p class="card-text">Un classique</p>
+        </div>
+    </div>
+    <div class="card border border-danger border-2 " style="width: 18rem;">
+        <img src="https://www.delscookingtwist.com/wp-content/uploads/2023/12/Coconut-Snowballs_3-320x320.jpg" class="card-img-top img-card img-fluid" alt="...">
+        <div class="card-body">
+            <h5 class="card-title">Raffaello</h5>
+            <p class="card-text">Simple et délicieux</p>
+        </div>
+    </div>  
+</section>
+      <footer class="footer">
+          <div class="container">
+              <div class="row">
+                  <div class="col-md-6">
+                      <p>&copy; 2025 Recettes du Monde. Tous droits réservés.</p>
+                  </div>
+                  <div class="col-md-6">
+                      <div class="footer-links">
+                          <a href="https://www.facebook.com">Facebook</a>
+                          <a href="https://www.instagram.com">Instagram</a>
+                          <a href="https://www.x.com/Accueil">X-Twitter</a>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </footer>
+ 
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>
