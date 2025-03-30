@@ -35,3 +35,26 @@ header{
     text-align: center;
     
 }
+.footer{
+    display: flex;
+    background-color: #3600006d;
+    padding: 15px;
+    justify-content: space-around;
+    align-self: center;
+}
+.footer p{
+    margin: 0;
+    color: white;
+    font-size: 13px;
+}
+.row{
+    display: flex;
+    flex-direction: row;
+    width: auto;
+}
+.form{
+    display: flex;
+}
+.container{
+    width: auto;
+}
