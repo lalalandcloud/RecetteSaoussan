@@ -65,7 +65,7 @@ document.getElementById('subscribe-btn').addEventListener('click', function() {
     var emailInput = document.getElementById('email').value;
     
     if (emailInput.trim() !== "") {
-        alert('Bienvenue à toi ' + emailInput);
+        alert("L'adresse " + emailInput + "est inscrite à la Newsletter");
     } else {
         alert('Veuillez entrer un email valide.');
     }
